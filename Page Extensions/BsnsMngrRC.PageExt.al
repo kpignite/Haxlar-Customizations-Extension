@@ -30,7 +30,6 @@ pageextension 50006 BsnsMngrRC extends "Business Manager Role Center"
                 {
                     RunObject = report "Customer Open Sales Order";
                     ApplicationArea = All;
-                    // test commit
                 }
             }
         }
