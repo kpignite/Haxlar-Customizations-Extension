@@ -10,6 +10,352 @@
       <rd:DataSourceID>3d17b99f-1553-4274-96ce-8de6da7353de</rd:DataSourceID>
     </DataSource>
   </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="CompanyInformation_Picture">
+          <DataField>CompanyInformation_Picture</DataField>
+        </Field>
+        <Field Name="CompanyInformation_Name">
+          <DataField>CompanyInformation_Name</DataField>
+        </Field>
+        <Field Name="CompanyInformation_Address">
+          <DataField>CompanyInformation_Address</DataField>
+        </Field>
+        <Field Name="CompanyInformation_City">
+          <DataField>CompanyInformation_City</DataField>
+        </Field>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+        </Field>
+        <Field Name="CurrentYear">
+          <DataField>CurrentYear</DataField>
+        </Field>
+        <Field Name="NextYear">
+          <DataField>NextYear</DataField>
+        </Field>
+        <Field Name="JanuaryCurrentYearAmount">
+          <DataField>JanuaryCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="JanuaryCurrentYearAmountFormat">
+          <DataField>JanuaryCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="FebruaryCurrentYearAmount">
+          <DataField>FebruaryCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="FebruaryCurrentYearAmountFormat">
+          <DataField>FebruaryCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="MarchCurrentYearAmount">
+          <DataField>MarchCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="MarchCurrentYearAmountFormat">
+          <DataField>MarchCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="AprilCurrentYearAmount">
+          <DataField>AprilCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="AprilCurrentYearAmountFormat">
+          <DataField>AprilCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="MayCurrentYearAmount">
+          <DataField>MayCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="MayCurrentYearAmountFormat">
+          <DataField>MayCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="JuneCurrentYearAmount">
+          <DataField>JuneCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="JuneCurrentYearAmountFormat">
+          <DataField>JuneCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="JulyCurrentYearAmount">
+          <DataField>JulyCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="JulyCurrentYearAmountFormat">
+          <DataField>JulyCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="AugustCurrentYearAmount">
+          <DataField>AugustCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="AugustCurrentYearAmountFormat">
+          <DataField>AugustCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="SeptemberCurrentYearAmount">
+          <DataField>SeptemberCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="SeptemberCurrentYearAmountFormat">
+          <DataField>SeptemberCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="OctoberCurrentYearAmount">
+          <DataField>OctoberCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="OctoberCurrentYearAmountFormat">
+          <DataField>OctoberCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="NovemberCurrentYearAmount">
+          <DataField>NovemberCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="NovemberCurrentYearAmountFormat">
+          <DataField>NovemberCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="DecemberCurrentYearAmount">
+          <DataField>DecemberCurrentYearAmount</DataField>
+        </Field>
+        <Field Name="DecemberCurrentYearAmountFormat">
+          <DataField>DecemberCurrentYearAmountFormat</DataField>
+        </Field>
+        <Field Name="JanuaryCurrentYearTotal">
+          <DataField>JanuaryCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="JanuaryCurrentYearTotalFormat">
+          <DataField>JanuaryCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="FebruaryCurrentYearTotal">
+          <DataField>FebruaryCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="FebruaryCurrentYearTotalFormat">
+          <DataField>FebruaryCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="MarchCurrentYearTotal">
+          <DataField>MarchCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="MarchCurrentYearTotalFormat">
+          <DataField>MarchCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="AprilCurrentYearTotal">
+          <DataField>AprilCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="AprilCurrentYearTotalFormat">
+          <DataField>AprilCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="MayCurrentYearTotal">
+          <DataField>MayCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="MayCurrentYearTotalFormat">
+          <DataField>MayCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="JuneCurrentYearTotal">
+          <DataField>JuneCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="JuneCurrentYearTotalFormat">
+          <DataField>JuneCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="JulyCurrentYearTotal">
+          <DataField>JulyCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="JulyCurrentYearTotalFormat">
+          <DataField>JulyCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="AugustCurrentYearTotal">
+          <DataField>AugustCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="AugustCurrentYearTotalFormat">
+          <DataField>AugustCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="SeptemberCurrentYearTotal">
+          <DataField>SeptemberCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="SeptemberCurrentYearTotalFormat">
+          <DataField>SeptemberCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="OctoberCurrentYearTotal">
+          <DataField>OctoberCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="OctoberCurrentYearTotalFormat">
+          <DataField>OctoberCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="NovemberCurrentYearTotal">
+          <DataField>NovemberCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="NovemberCurrentYearTotalFormat">
+          <DataField>NovemberCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="DecemberCurrentYearTotal">
+          <DataField>DecemberCurrentYearTotal</DataField>
+        </Field>
+        <Field Name="DecemberCurrentYearTotalFormat">
+          <DataField>DecemberCurrentYearTotalFormat</DataField>
+        </Field>
+        <Field Name="JanuaryNextYearAmount">
+          <DataField>JanuaryNextYearAmount</DataField>
+        </Field>
+        <Field Name="JanuaryNextYearAmountFormat">
+          <DataField>JanuaryNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="FebruaryNextYearAmount">
+          <DataField>FebruaryNextYearAmount</DataField>
+        </Field>
+        <Field Name="FebruaryNextYearAmountFormat">
+          <DataField>FebruaryNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="MarchNextYearAmount">
+          <DataField>MarchNextYearAmount</DataField>
+        </Field>
+        <Field Name="MarchNextYearAmountFormat">
+          <DataField>MarchNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="AprilNextYearAmount">
+          <DataField>AprilNextYearAmount</DataField>
+        </Field>
+        <Field Name="AprilNextYearAmountFormat">
+          <DataField>AprilNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="MayNextYearAmount">
+          <DataField>MayNextYearAmount</DataField>
+        </Field>
+        <Field Name="MayNextYearAmountFormat">
+          <DataField>MayNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="JuneNextYearAmount">
+          <DataField>JuneNextYearAmount</DataField>
+        </Field>
+        <Field Name="JuneNextYearAmountFormat">
+          <DataField>JuneNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="JulyNextYearAmount">
+          <DataField>JulyNextYearAmount</DataField>
+        </Field>
+        <Field Name="JulyNextYearAmountFormat">
+          <DataField>JulyNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="AugustNextYearAmount">
+          <DataField>AugustNextYearAmount</DataField>
+        </Field>
+        <Field Name="AugustNextYearAmountFormat">
+          <DataField>AugustNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="SeptemberNextYearAmount">
+          <DataField>SeptemberNextYearAmount</DataField>
+        </Field>
+        <Field Name="SeptemberNextYearAmountFormat">
+          <DataField>SeptemberNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="OctoberNextYearAmount">
+          <DataField>OctoberNextYearAmount</DataField>
+        </Field>
+        <Field Name="OctoberNextYearAmountFormat">
+          <DataField>OctoberNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="NovemberNextYearAmount">
+          <DataField>NovemberNextYearAmount</DataField>
+        </Field>
+        <Field Name="NovemberNextYearAmountFormat">
+          <DataField>NovemberNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="DecemberNextYearAmount">
+          <DataField>DecemberNextYearAmount</DataField>
+        </Field>
+        <Field Name="DecemberNextYearAmountFormat">
+          <DataField>DecemberNextYearAmountFormat</DataField>
+        </Field>
+        <Field Name="JanuaryNextYearTotal">
+          <DataField>JanuaryNextYearTotal</DataField>
+        </Field>
+        <Field Name="JanuaryNextYearTotalFormat">
+          <DataField>JanuaryNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="FebruaryNextYearTotal">
+          <DataField>FebruaryNextYearTotal</DataField>
+        </Field>
+        <Field Name="FebruaryNextYearTotalFormat">
+          <DataField>FebruaryNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="MarchNextYearTotal">
+          <DataField>MarchNextYearTotal</DataField>
+        </Field>
+        <Field Name="MarchNextYearTotalFormat">
+          <DataField>MarchNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="AprilNextYearTotal">
+          <DataField>AprilNextYearTotal</DataField>
+        </Field>
+        <Field Name="AprilNextYearTotalFormat">
+          <DataField>AprilNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="MayNextYearTotal">
+          <DataField>MayNextYearTotal</DataField>
+        </Field>
+        <Field Name="MayNextYearTotalFormat">
+          <DataField>MayNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="JuneNextYearTotal">
+          <DataField>JuneNextYearTotal</DataField>
+        </Field>
+        <Field Name="JuneNextYearTotalFormat">
+          <DataField>JuneNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="JulyNextYearTotal">
+          <DataField>JulyNextYearTotal</DataField>
+        </Field>
+        <Field Name="JulyNextYearTotalFormat">
+          <DataField>JulyNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="AugustNextYearTotal">
+          <DataField>AugustNextYearTotal</DataField>
+        </Field>
+        <Field Name="AugustNextYearTotalFormat">
+          <DataField>AugustNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="SeptemberNextYearTotal">
+          <DataField>SeptemberNextYearTotal</DataField>
+        </Field>
+        <Field Name="SeptemberNextYearTotalFormat">
+          <DataField>SeptemberNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="OctoberNextYearTotal">
+          <DataField>OctoberNextYearTotal</DataField>
+        </Field>
+        <Field Name="OctoberNextYearTotalFormat">
+          <DataField>OctoberNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="NovemberNextYearTotal">
+          <DataField>NovemberNextYearTotal</DataField>
+        </Field>
+        <Field Name="NovemberNextYearTotalFormat">
+          <DataField>NovemberNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="DecemberNextYearTotal">
+          <DataField>DecemberNextYearTotal</DataField>
+        </Field>
+        <Field Name="DecemberNextYearTotalFormat">
+          <DataField>DecemberNextYearTotalFormat</DataField>
+        </Field>
+        <Field Name="PerCustomer1YAmount">
+          <DataField>PerCustomer1YAmount</DataField>
+        </Field>
+        <Field Name="PerCustomer1YAmountFormat">
+          <DataField>PerCustomer1YAmountFormat</DataField>
+        </Field>
+        <Field Name="PerCustomer1YTotal">
+          <DataField>PerCustomer1YTotal</DataField>
+        </Field>
+        <Field Name="PerCustomer1YTotalFormat">
+          <DataField>PerCustomer1YTotalFormat</DataField>
+        </Field>
+        <Field Name="PerCustomer2YAmount">
+          <DataField>PerCustomer2YAmount</DataField>
+        </Field>
+        <Field Name="PerCustomer2YAmountFormat">
+          <DataField>PerCustomer2YAmountFormat</DataField>
+        </Field>
+        <Field Name="PerCustomer2YTotal">
+          <DataField>PerCustomer2YTotal</DataField>
+        </Field>
+        <Field Name="PerCustomer2YTotalFormat">
+          <DataField>PerCustomer2YTotalFormat</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -1053,9 +1399,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <LeftBorder>
                               <Style>Solid</Style>
                             </LeftBorder>
@@ -1066,6 +1409,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1093,9 +1437,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1130,9 +1471,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1167,9 +1505,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1204,9 +1539,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1241,9 +1573,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1278,9 +1607,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1315,9 +1641,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1352,9 +1675,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1389,9 +1709,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1426,9 +1743,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1463,9 +1777,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1500,9 +1811,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1537,9 +1845,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1574,9 +1879,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1611,9 +1913,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1648,9 +1947,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1685,9 +1981,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1722,9 +2015,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1759,9 +2049,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1796,9 +2083,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1833,9 +2117,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1870,9 +2151,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1907,9 +2185,6 @@
                             <Border>
                               <Style>None</Style>
                             </Border>
-                            <TopBorder>
-                              <Style>Solid</Style>
-                            </TopBorder>
                             <RightBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
@@ -7088,6 +7363,12 @@
       </Page>
     </ReportSection>
   </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -7127,350 +7408,4 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Fields>
-        <Field Name="CompanyInformation_Picture">
-          <DataField>CompanyInformation_Picture</DataField>
-        </Field>
-        <Field Name="CompanyInformation_Name">
-          <DataField>CompanyInformation_Name</DataField>
-        </Field>
-        <Field Name="CompanyInformation_Address">
-          <DataField>CompanyInformation_Address</DataField>
-        </Field>
-        <Field Name="CompanyInformation_City">
-          <DataField>CompanyInformation_City</DataField>
-        </Field>
-        <Field Name="No_">
-          <DataField>No_</DataField>
-        </Field>
-        <Field Name="Name">
-          <DataField>Name</DataField>
-        </Field>
-        <Field Name="CurrentYear">
-          <DataField>CurrentYear</DataField>
-        </Field>
-        <Field Name="NextYear">
-          <DataField>NextYear</DataField>
-        </Field>
-        <Field Name="JanuaryCurrentYearAmount">
-          <DataField>JanuaryCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="JanuaryCurrentYearAmountFormat">
-          <DataField>JanuaryCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="FebruaryCurrentYearAmount">
-          <DataField>FebruaryCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="FebruaryCurrentYearAmountFormat">
-          <DataField>FebruaryCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="MarchCurrentYearAmount">
-          <DataField>MarchCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="MarchCurrentYearAmountFormat">
-          <DataField>MarchCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="AprilCurrentYearAmount">
-          <DataField>AprilCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="AprilCurrentYearAmountFormat">
-          <DataField>AprilCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="MayCurrentYearAmount">
-          <DataField>MayCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="MayCurrentYearAmountFormat">
-          <DataField>MayCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="JuneCurrentYearAmount">
-          <DataField>JuneCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="JuneCurrentYearAmountFormat">
-          <DataField>JuneCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="JulyCurrentYearAmount">
-          <DataField>JulyCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="JulyCurrentYearAmountFormat">
-          <DataField>JulyCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="AugustCurrentYearAmount">
-          <DataField>AugustCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="AugustCurrentYearAmountFormat">
-          <DataField>AugustCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="SeptemberCurrentYearAmount">
-          <DataField>SeptemberCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="SeptemberCurrentYearAmountFormat">
-          <DataField>SeptemberCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="OctoberCurrentYearAmount">
-          <DataField>OctoberCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="OctoberCurrentYearAmountFormat">
-          <DataField>OctoberCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="NovemberCurrentYearAmount">
-          <DataField>NovemberCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="NovemberCurrentYearAmountFormat">
-          <DataField>NovemberCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="DecemberCurrentYearAmount">
-          <DataField>DecemberCurrentYearAmount</DataField>
-        </Field>
-        <Field Name="DecemberCurrentYearAmountFormat">
-          <DataField>DecemberCurrentYearAmountFormat</DataField>
-        </Field>
-        <Field Name="JanuaryCurrentYearTotal">
-          <DataField>JanuaryCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="JanuaryCurrentYearTotalFormat">
-          <DataField>JanuaryCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="FebruaryCurrentYearTotal">
-          <DataField>FebruaryCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="FebruaryCurrentYearTotalFormat">
-          <DataField>FebruaryCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="MarchCurrentYearTotal">
-          <DataField>MarchCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="MarchCurrentYearTotalFormat">
-          <DataField>MarchCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="AprilCurrentYearTotal">
-          <DataField>AprilCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="AprilCurrentYearTotalFormat">
-          <DataField>AprilCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="MayCurrentYearTotal">
-          <DataField>MayCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="MayCurrentYearTotalFormat">
-          <DataField>MayCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="JuneCurrentYearTotal">
-          <DataField>JuneCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="JuneCurrentYearTotalFormat">
-          <DataField>JuneCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="JulyCurrentYearTotal">
-          <DataField>JulyCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="JulyCurrentYearTotalFormat">
-          <DataField>JulyCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="AugustCurrentYearTotal">
-          <DataField>AugustCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="AugustCurrentYearTotalFormat">
-          <DataField>AugustCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="SeptemberCurrentYearTotal">
-          <DataField>SeptemberCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="SeptemberCurrentYearTotalFormat">
-          <DataField>SeptemberCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="OctoberCurrentYearTotal">
-          <DataField>OctoberCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="OctoberCurrentYearTotalFormat">
-          <DataField>OctoberCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="NovemberCurrentYearTotal">
-          <DataField>NovemberCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="NovemberCurrentYearTotalFormat">
-          <DataField>NovemberCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="DecemberCurrentYearTotal">
-          <DataField>DecemberCurrentYearTotal</DataField>
-        </Field>
-        <Field Name="DecemberCurrentYearTotalFormat">
-          <DataField>DecemberCurrentYearTotalFormat</DataField>
-        </Field>
-        <Field Name="JanuaryNextYearAmount">
-          <DataField>JanuaryNextYearAmount</DataField>
-        </Field>
-        <Field Name="JanuaryNextYearAmountFormat">
-          <DataField>JanuaryNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="FebruaryNextYearAmount">
-          <DataField>FebruaryNextYearAmount</DataField>
-        </Field>
-        <Field Name="FebruaryNextYearAmountFormat">
-          <DataField>FebruaryNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="MarchNextYearAmount">
-          <DataField>MarchNextYearAmount</DataField>
-        </Field>
-        <Field Name="MarchNextYearAmountFormat">
-          <DataField>MarchNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="AprilNextYearAmount">
-          <DataField>AprilNextYearAmount</DataField>
-        </Field>
-        <Field Name="AprilNextYearAmountFormat">
-          <DataField>AprilNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="MayNextYearAmount">
-          <DataField>MayNextYearAmount</DataField>
-        </Field>
-        <Field Name="MayNextYearAmountFormat">
-          <DataField>MayNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="JuneNextYearAmount">
-          <DataField>JuneNextYearAmount</DataField>
-        </Field>
-        <Field Name="JuneNextYearAmountFormat">
-          <DataField>JuneNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="JulyNextYearAmount">
-          <DataField>JulyNextYearAmount</DataField>
-        </Field>
-        <Field Name="JulyNextYearAmountFormat">
-          <DataField>JulyNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="AugustNextYearAmount">
-          <DataField>AugustNextYearAmount</DataField>
-        </Field>
-        <Field Name="AugustNextYearAmountFormat">
-          <DataField>AugustNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="SeptemberNextYearAmount">
-          <DataField>SeptemberNextYearAmount</DataField>
-        </Field>
-        <Field Name="SeptemberNextYearAmountFormat">
-          <DataField>SeptemberNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="OctoberNextYearAmount">
-          <DataField>OctoberNextYearAmount</DataField>
-        </Field>
-        <Field Name="OctoberNextYearAmountFormat">
-          <DataField>OctoberNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="NovemberNextYearAmount">
-          <DataField>NovemberNextYearAmount</DataField>
-        </Field>
-        <Field Name="NovemberNextYearAmountFormat">
-          <DataField>NovemberNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="DecemberNextYearAmount">
-          <DataField>DecemberNextYearAmount</DataField>
-        </Field>
-        <Field Name="DecemberNextYearAmountFormat">
-          <DataField>DecemberNextYearAmountFormat</DataField>
-        </Field>
-        <Field Name="JanuaryNextYearTotal">
-          <DataField>JanuaryNextYearTotal</DataField>
-        </Field>
-        <Field Name="JanuaryNextYearTotalFormat">
-          <DataField>JanuaryNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="FebruaryNextYearTotal">
-          <DataField>FebruaryNextYearTotal</DataField>
-        </Field>
-        <Field Name="FebruaryNextYearTotalFormat">
-          <DataField>FebruaryNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="MarchNextYearTotal">
-          <DataField>MarchNextYearTotal</DataField>
-        </Field>
-        <Field Name="MarchNextYearTotalFormat">
-          <DataField>MarchNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="AprilNextYearTotal">
-          <DataField>AprilNextYearTotal</DataField>
-        </Field>
-        <Field Name="AprilNextYearTotalFormat">
-          <DataField>AprilNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="MayNextYearTotal">
-          <DataField>MayNextYearTotal</DataField>
-        </Field>
-        <Field Name="MayNextYearTotalFormat">
-          <DataField>MayNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="JuneNextYearTotal">
-          <DataField>JuneNextYearTotal</DataField>
-        </Field>
-        <Field Name="JuneNextYearTotalFormat">
-          <DataField>JuneNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="JulyNextYearTotal">
-          <DataField>JulyNextYearTotal</DataField>
-        </Field>
-        <Field Name="JulyNextYearTotalFormat">
-          <DataField>JulyNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="AugustNextYearTotal">
-          <DataField>AugustNextYearTotal</DataField>
-        </Field>
-        <Field Name="AugustNextYearTotalFormat">
-          <DataField>AugustNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="SeptemberNextYearTotal">
-          <DataField>SeptemberNextYearTotal</DataField>
-        </Field>
-        <Field Name="SeptemberNextYearTotalFormat">
-          <DataField>SeptemberNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="OctoberNextYearTotal">
-          <DataField>OctoberNextYearTotal</DataField>
-        </Field>
-        <Field Name="OctoberNextYearTotalFormat">
-          <DataField>OctoberNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="NovemberNextYearTotal">
-          <DataField>NovemberNextYearTotal</DataField>
-        </Field>
-        <Field Name="NovemberNextYearTotalFormat">
-          <DataField>NovemberNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="DecemberNextYearTotal">
-          <DataField>DecemberNextYearTotal</DataField>
-        </Field>
-        <Field Name="DecemberNextYearTotalFormat">
-          <DataField>DecemberNextYearTotalFormat</DataField>
-        </Field>
-        <Field Name="PerCustomer1YAmount">
-          <DataField>PerCustomer1YAmount</DataField>
-        </Field>
-        <Field Name="PerCustomer1YAmountFormat">
-          <DataField>PerCustomer1YAmountFormat</DataField>
-        </Field>
-        <Field Name="PerCustomer1YTotal">
-          <DataField>PerCustomer1YTotal</DataField>
-        </Field>
-        <Field Name="PerCustomer1YTotalFormat">
-          <DataField>PerCustomer1YTotalFormat</DataField>
-        </Field>
-        <Field Name="PerCustomer2YAmount">
-          <DataField>PerCustomer2YAmount</DataField>
-        </Field>
-        <Field Name="PerCustomer2YAmountFormat">
-          <DataField>PerCustomer2YAmountFormat</DataField>
-        </Field>
-        <Field Name="PerCustomer2YTotal">
-          <DataField>PerCustomer2YTotal</DataField>
-        </Field>
-        <Field Name="PerCustomer2YTotalFormat">
-          <DataField>PerCustomer2YTotalFormat</DataField>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-    </DataSet>
-  </DataSets>
 </Report>
