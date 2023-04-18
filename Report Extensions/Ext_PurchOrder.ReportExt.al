@@ -1,6 +1,7 @@
 reportextension 50004 Ext_PurchOrder extends "Purchase Order"
 {
-    RDLCLayout = 'Layout/PurchOrder.rdlc';
+    //RDLCLayout = 'Layout/PurchOrder.rdlc';
+    RDLCLayout = 'Layout/ExtPurchaseOrder.rdlc';
 
     dataset
     {
