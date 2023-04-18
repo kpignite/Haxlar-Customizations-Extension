@@ -1,7 +1,7 @@
 reportextension 50005 Ext_StandardSalesQuote extends "Standard Sales - Quote"
 {
     //RDLCLayout = 'Layout/StandardSalesQuote.rdl';
-    RDLCLayout = 'Layout/ExtSalesQuote.rdlc';
+    RDLCLayout = 'Layouts/ExtSalesQuote.rdlc';
     dataset
     {
         // Add changes to dataitems and columns here
