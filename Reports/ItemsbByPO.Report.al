@@ -66,9 +66,10 @@ report 50003 ItemsbByPO
             trigger OnAfterGetRecord()
             begin
                 Clear(Item);
-                Clear(PurchHeader);
                 if Item.Get("Purchase Line"."No.") then;
-                PurchHeader.SetFilter("No.", "Document No.");
+
+                Clear(PurchHeader);
+                PurchHeader.SetRange("No.", "Document No.");
                 if PurchHeader.FindFirst() then;
             end;
         }
