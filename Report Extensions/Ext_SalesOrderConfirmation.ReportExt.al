@@ -1,6 +1,6 @@
 reportextension 50001 Ext_SalesOrderConfirmation extends "Standard Sales - Order Conf."
 {
-    RDLCLayout = 'Layout/StandardSalesOrderConf.rdlc';
+    RDLCLayout = 'Layouts/StandardSalesOrderConf.rdlc';
 
     dataset
     {

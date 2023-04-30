@@ -1,6 +1,6 @@
 reportextension 50003 Ext_SalesInvoice extends "Standard Sales - Invoice"
 {
-    RDLCLayout = 'Layout/SalesInvoic.rdlc';
+    RDLCLayout = 'Layouts/SalesInvoic.rdlc';
 
     dataset
     {

@@ -1,6 +1,6 @@
 reportextension 50002 Ext_PurchInv extends "Purchase Invoice NA"
 {
-    RDLCLayout = 'Layout/PurchInvoic.rdlc';
+    RDLCLayout = 'Layouts/PurchInvoic.rdlc';
 
     dataset
     {

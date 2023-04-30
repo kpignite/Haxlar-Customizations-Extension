@@ -1,8 +1,5 @@
 reportextension 50004 Ext_PurchOrder extends "Purchase Order"
 {
-    //RDLCLayout = 'Layout/PurchOrder.rdlc';
-    RDLCLayout = 'Layouts/ExtPurchaseOrder.rdlc';
-
     dataset
     {
         add("Purchase Header")
@@ -43,6 +40,21 @@ reportextension 50004 Ext_PurchOrder extends "Purchase Order"
     requestpage
     {
         // Add changes to the requestpage here
+    }
+
+    rendering
+    {
+        layout("Purchase Order Layout without Tooling Paragraph")
+        {
+            Type = RDLC;
+            LayoutFile = 'Layouts/PurchOrder.rdlc';
+        }
+
+        layout("Purchase Order Layout with Tooling Paragraph")
+        {
+            Type = RDLC;
+            LayoutFile = 'Layouts/ExtPurchaseOrder.rdlc';
+        }
     }
 
     trigger OnPreReport()
