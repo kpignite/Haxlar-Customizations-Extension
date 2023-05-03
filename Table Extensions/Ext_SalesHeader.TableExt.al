@@ -59,11 +59,13 @@ tableextension 50008 Ext_SalesHeader extends "Sales Header"
         {
             DataClassification = ToBeClassified;
             TableRelation = IncoTerms.Description;
+            ValidateTableRelation = false;
         }
         field(50014; RevisionMaterialsFinish; Text[30])
         {
             DataClassification = ToBeClassified;
         }
     }
-    var myInt: Integer;
+    var
+        myInt: Integer;
 }
